@@ -36,7 +36,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - SpriteCreation
   m_SortingLayers:
   - name: Default
     uniqueID: 0

@@ -1,0 +1,16 @@
+{
+    "name": "VampireNightclubSlayer.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:953d3fc292bacb943aeec656c50d8fe7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

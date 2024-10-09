@@ -1,0 +1,30 @@
+{
+    "name": "Nebula.Runtime",
+    "rootNamespace": "Nebula",
+    "references": [
+        "GUID:1cff738fde79d6145a37676af5dab9a8",
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:84651a3751eca9349aac36a66bba901b",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.addressables",
+            "expression": "1.21",
+            "define": "USE_ADDRESSABLES"
+        },
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "1.7.0",
+            "define": "USE_INPUT_SYSTEM"
+        }
+    ],
+    "noEngineReferences": false
+}

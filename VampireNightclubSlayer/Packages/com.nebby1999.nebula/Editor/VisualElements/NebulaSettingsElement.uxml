@@ -1,0 +1,42 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.nebby1999.nebula/Editor/VisualElements/NebulaSettingsStyle.uss?fileID=7433441132597879392&amp;guid=deb82920a2df77945bcd6aa0a24610c2&amp;type=3#NebulaSettingsStyle" />
+    <ui:VisualElement name="Header" style="flex-grow: 0; justify-content: space-between; align-self: stretch; align-items: stretch; flex-direction: column; border-bottom-color: rgb(47, 47, 47); border-bottom-width: 5px; height: auto; visibility: visible; overflow: visible; display: flex; position: relative; flex-shrink: 1;">
+        <ui:Label tabindex="-1" text="Nebula Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NebulaSettingsLabel" style="font-size: 24px; -unity-font-style: bold-and-italic; padding-left: 6px; text-overflow: ellipsis; white-space: normal;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Center" style="flex-grow: 1;">
+        <ui:VisualElement name="LayerIndexGeneratorRoot" style="flex-grow: 0; flex-direction: row; align-items: center; justify-content: space-between; width: auto;">
+            <ui:Foldout text="Layer Index Code Generator" name="LayerIndexFoldout" value="true" style="-unity-font-style: bold-and-italic; flex-grow: 1;">
+                <ui:VisualElement name="LayerIndexFodloutContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.05); -unity-font-style: normal;">
+                    <ui:Toggle label="Enable Layer Index Generation" name="EnableLayerIndexGeneration" binding-path="createLayerIndexStruct" class="nebula-override_style" />
+                    <ui:VisualElement name="LayerIndexContents" style="flex-grow: 1;">
+                        <ui:Toggle label="Use Physics2D" name="Is2D" binding-path="layerIndexData.is2D" class="nebula-override_style" />
+                        <uie:PropertyField name="CommonMaskSelector" binding-path="layerIndexData.commonMaskSelector" />
+                        <uie:PropertyField name="FilePath" binding-path="layerIndexData.filePath" />
+                        <ui:TextField picking-mode="Ignore" label="namespace" name="Namespace" binding-path="layerIndexData.nameSpace" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:Foldout>
+            <ui:Button text="Re-Generate Struct" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RegenerateLayerIndexStructButton" class="RegenerateButton" style="justify-content: flex-start; align-self: flex-start;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="GameTagsGeneratorRoot" style="flex-grow: 0; flex-direction: row; align-items: center; justify-content: space-between;">
+            <ui:Foldout text="Game Tags Code Generator" name="GameTagsFoldout" value="true" style="-unity-font-style: bold-and-italic; flex-grow: 1;">
+                <ui:VisualElement name="GameTagsFoldoutContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.05); -unity-font-style: normal;">
+                    <ui:Toggle label="Enable Game Tags Generation" name="EnableGameTagsGeneration" binding-path="createGameTagsStruct" class="nebula-override_style" />
+                    <ui:VisualElement name="GameTagsContent" style="flex-grow: 1;">
+                        <uie:PropertyField name="FilePath" binding-path="gameTagsData.filePath" />
+                        <ui:TextField picking-mode="Ignore" label="namespace" name="Namespace" binding-path="gameTagsData.nameSpace" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:Foldout>
+            <ui:Button text="Re-Generate Struct" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RegenerateGameTagsStructButton" class="RegenerateButton" style="justify-content: flex-start; align-self: flex-start;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="InputGUIDGeneratorRoot" style="flex-grow: 0; flex-direction: row; -unity-font-style: bold-and-italic;">
+            <ui:Foldout text="Input GUID Generation" name="InputGUIDFoldout" style="flex-grow: 1;">
+                <ui:VisualElement name="InputGUIDContainer" style="flex-grow: 1; -unity-font-style: normal;">
+                    <uie:PropertyField name="InputActionGUIDSPropertyField" binding-path="inputActionGuidDatas" style="background-color: rgba(0, 0, 0, 0.05);" />
+                </ui:VisualElement>
+            </ui:Foldout>
+            <ui:Button text="Re-Generate Class" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RegenerateInputGUIDClassButton" class="nebularegenerate_button" style="flex-grow: 0; -unity-font-style: normal; align-self: flex-start;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

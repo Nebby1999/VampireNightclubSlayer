@@ -1,0 +1,18 @@
+nebulaoverride_style {
+}
+
+.nebula-override_style .unity-toggle__input {
+    flex-direction: row-reverse;
+}
+
+.nebula-regenerate_button {
+    flex-shrink: 0;
+    max-width: 150px;
+    flex-grow: 1;
+    align-items: auto;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.nebula-select_folder_button {
+}
