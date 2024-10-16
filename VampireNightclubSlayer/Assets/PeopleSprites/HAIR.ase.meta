@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -210,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: HAIR_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 5
@@ -218,6 +221,7 @@ ScriptedImporter:
       spriteId: 6035c825f0b12c348aa1d5231999ad2a
     - name: HAIR_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 40
@@ -226,6 +230,7 @@ ScriptedImporter:
       spriteId: b29f67c5f2c12214d96680205d2e6171
     - name: HAIR_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -234,6 +239,7 @@ ScriptedImporter:
       spriteId: 786cdf8a11530274ab41c53a430fd1d8
     - name: HAIR_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 35
@@ -291,6 +297,7 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}

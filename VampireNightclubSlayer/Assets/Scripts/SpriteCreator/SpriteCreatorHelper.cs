@@ -4,6 +4,8 @@ using UnityEngine;
 using Nebula;
 using VampireSlayer.SpriteCreator;
 using System;
+using System.IO;
+using UnityEditor;
 
 namespace VampireSlayer
 {
@@ -20,7 +22,8 @@ namespace VampireSlayer
 
         private Xoroshiro128Plus _rng;
         private GameObject _currentBody;
-        private HashSet<int> _createdSprites;
+        private HashSet<int> _createdSprites = new HashSet<int>();
+        private List<string> _filePaths = new List<string>();
 
         private void Awake()
         {
@@ -30,7 +33,9 @@ namespace VampireSlayer
         private void Start()
         {
             AssignIndices();
-
+#if UNITY_EDITOR
+            AssetDatabase.StartAssetEditing();
+#endif
             StartCoroutine(Create());
         }
 
@@ -41,7 +46,7 @@ namespace VampireSlayer
             {
                 if(_currentBody)
                 {
-                    Destroy(_currentBody);
+                    DestroyImmediate(_currentBody);
                     continue;
                 }
                 int id = 0;
@@ -54,7 +59,7 @@ namespace VampireSlayer
                 yield return new WaitForSeconds(0.1f);
 
                 var head = headSprites.NextElementUniform(_rng);
-                id += bodyPrefab.id;
+                id += head.id;
                 var headPivot = bodyInstance.childLocator.FindChild("Head");
                 var headInstance = Instantiate(head, headPivot);
                 headInstance.transform.localPosition = Vector3.zero;
@@ -73,7 +78,6 @@ namespace VampireSlayer
                 var faceInstance = Instantiate(face, facePivot);
                 faceInstance.transform.localPosition = Vector3.zero;
                 yield return new WaitForSeconds(0.1f);
-                yield break;
 
 
                 if (_createdSprites.Contains(id))
@@ -81,31 +85,75 @@ namespace VampireSlayer
                     continue;
                 }
 
-                _createdSprites.Add(id);
-                var subroutine = SaveSprite(id);
+                SuccessContainer successContainer = new SuccessContainer();
+                var subroutine = SaveSprite(id, successContainer);
                 while(subroutine.MoveNext())
                 {
                     yield return null;
+                }
+
+                if(successContainer)
+                {
+                    i++;
+                }
+            }
+
+            foreach(var path in _filePaths)
+            {
+                if(File.Exists(path))
+                {
+                    AssetDatabase.ImportAsset(path);
                 }
             }
             yield break;
         }
 
-        private IEnumerator SaveSprite(int id)
+        private IEnumerator SaveSprite(int id, SuccessContainer container)
         {
-            yield break;
+            Camera main = NebulaUtil.mainCamera;
+            var renderTexture = main.targetTexture;
+
+            RenderTexture.active = renderTexture;
+            Texture2D tex = new Texture2D(renderTexture.width, renderTexture.height, TextureFormat.RGB24, false);
+            tex.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
+            RenderTexture.active = null;
+
+            var bytes = tex.EncodeToPNG();
+
+            var outputDirectory = $"{folderOutput}\\SpriteCreatorOutput";
+#if UNITY_EDITOR
+            if (!AssetDatabase.IsValidFolder(outputDirectory))
+            {
+                AssetDatabase.CreateFolder(folderOutput, "SpriteCreatorOutput");
+            }
+#endif
+            var filePath = $"{outputDirectory}\\{id}.png";
+            var task = File.WriteAllBytesAsync(filePath, bytes);
+            while(!task.IsCompleted)
+            {
+                yield return null;
+            }
+            _createdSprites.Add(id);
+            _filePaths.Add(filePath);
+            container.success = true;
         }
 
+        private void OnDestroy()
+        {
+#if UNITY_EDITOR
+            AssetDatabase.StopAssetEditing();
+#endif
+        }
         private void AssignIndices()
         {
             int count = 0;
-            AssignInternal(headSprites, count);
-            AssignInternal(faceSprites, count);
-            AssignInternal(bodySprites, count);
-            AssignInternal(hairSprites, count);
-            AssignInternal(accesorySprites, count);
+            AssignInternal(headSprites);
+            AssignInternal(faceSprites);
+            AssignInternal(bodySprites);
+            AssignInternal(hairSprites);
+            AssignInternal(accesorySprites);
 
-            void AssignInternal(SpriteIdentifier[] sprites, int count)
+            void AssignInternal(SpriteIdentifier[] sprites)
             {
                 for (int i = 0; i < sprites.Length; i++)
                 {
@@ -113,6 +161,13 @@ namespace VampireSlayer
                     count++;
                 }
             }
+        }
+
+        private class SuccessContainer
+        {
+            public bool success;
+
+            public static implicit operator bool(SuccessContainer c) => c.success;
         }
     }
 }
