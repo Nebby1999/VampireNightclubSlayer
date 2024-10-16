@@ -22,7 +22,7 @@ namespace VampireSlayer
 
         private Xoroshiro128Plus _rng;
         private GameObject _currentBody;
-        private HashSet<int> _createdSprites = new HashSet<int>();
+        private List<int> _createdSprites = new List<int>();
         private List<string> _filePaths = new List<string>();
 
         private void Awake()
@@ -56,29 +56,34 @@ namespace VampireSlayer
                 var bodyInstance = Instantiate(bodyPrefab, transform);
                 _currentBody = bodyInstance.gameObject;
                 bodyInstance.transform.localPosition = Vector3.zero;
-                yield return new WaitForSeconds(0.1f);
+                yield return null;
 
-                var head = headSprites.NextElementUniform(_rng);
-                id += head.id;
+                var headPrefab = headSprites.NextElementUniform(_rng);
+                id += headPrefab.id;
                 var headPivot = bodyInstance.childLocator.FindChild("Head");
-                var headInstance = Instantiate(head, headPivot);
+                var headInstance = Instantiate(headPrefab, headPivot);
                 headInstance.transform.localPosition = Vector3.zero;
-                yield return new WaitForSeconds(0.1f);
+                yield return null;
 
-                var hair = hairSprites.NextElementUniform(_rng);
-                id += hair.id;
+                var hairPrefab = hairSprites.NextElementUniform(_rng);
+                id += hairPrefab.id;
                 var hairPivot = headInstance.childLocator.FindChild("Hair");
-                var hairInstance = Instantiate(hair, hairPivot);
+                var hairInstance = Instantiate(hairPrefab, hairPivot);
                 hairInstance.transform.localPosition = Vector3.zero;
-                yield return new WaitForSeconds(0.1f);
+                yield return null;
 
-                var face = faceSprites.NextElementUniform(_rng);
-                id += face.id;
+                var facePrefab = faceSprites.NextElementUniform(_rng);
+                id += facePrefab.id;
                 var facePivot = headInstance.childLocator.FindChild("Face");
-                var faceInstance = Instantiate(face, facePivot);
+                var faceInstance = Instantiate(facePrefab, facePivot);
                 faceInstance.transform.localPosition = Vector3.zero;
-                yield return new WaitForSeconds(0.1f);
+                yield return null;
 
+                var accesoryPrefab = accesorySprites.NextElementUniform(_rng);
+                id += accesoryPrefab.id;
+                var accesoryInstance = Instantiate(accesoryPrefab, facePivot);
+                accesoryInstance.transform.localPosition = Vector3.zero;
+                yield return null;
 
                 if (_createdSprites.Contains(id))
                 {
@@ -114,19 +119,18 @@ namespace VampireSlayer
             var renderTexture = main.targetTexture;
 
             RenderTexture.active = renderTexture;
-            Texture2D tex = new Texture2D(renderTexture.width, renderTexture.height, TextureFormat.RGB24, false);
+            Texture2D tex = new Texture2D(renderTexture.width, renderTexture.height, TextureFormat.ARGB32, false);
             tex.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
             RenderTexture.active = null;
 
             var bytes = tex.EncodeToPNG();
 
             var outputDirectory = $"{folderOutput}\\SpriteCreatorOutput";
-#if UNITY_EDITOR
-            if (!AssetDatabase.IsValidFolder(outputDirectory))
+            if(!Directory.Exists(outputDirectory))
             {
-                AssetDatabase.CreateFolder(folderOutput, "SpriteCreatorOutput");
+                Directory.CreateDirectory(outputDirectory);
             }
-#endif
+
             var filePath = $"{outputDirectory}\\{id}.png";
             var task = File.WriteAllBytesAsync(filePath, bytes);
             while(!task.IsCompleted)
@@ -159,6 +163,7 @@ namespace VampireSlayer
                 {
                     sprites[i].id = count;
                     count++;
+                    Debug.LogWarning($"{sprites[i]}'s ID: {sprites[i].id}");
                 }
             }
         }
