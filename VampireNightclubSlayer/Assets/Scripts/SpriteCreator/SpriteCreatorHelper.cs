@@ -22,7 +22,6 @@ namespace VampireSlayer
 
         private Xoroshiro128Plus _rng;
         private GameObject _currentBody;
-        private List<int> _createdSprites = new List<int>();
         private List<string> _filePaths = new List<string>();
 
         private void Awake()
@@ -40,6 +39,93 @@ namespace VampireSlayer
         }
 
         private IEnumerator Create()
+        {
+            foreach(var bodyPrefab in bodySprites)
+            {
+                yield return null;
+                foreach(var headPrefab in headSprites)
+                {
+                    yield return null;
+                    foreach (var hairPrefab in hairSprites)
+                    {
+                        yield return null;
+                        foreach (var facePrefab in faceSprites)
+                        {
+                            yield return null;
+                            int id = 0;
+
+                            id += bodyPrefab.id;
+                            var bodyInstance = Instantiate(bodyPrefab, transform);
+                            _currentBody = bodyInstance.gameObject;
+                            bodyInstance.transform.localPosition = Vector3.zero;
+
+                            id += headPrefab.id;
+                            var headPivot = bodyInstance.childLocator.FindChild("Head");
+                            var headInstance = Instantiate(headPrefab, headPivot);
+                            headInstance.transform.localPosition = Vector3.zero;
+
+                            id += hairPrefab.id;
+                            var hairPivot = headInstance.childLocator.FindChild("Hair");
+                            var hairInstance = Instantiate(hairPrefab, hairPivot);
+                            hairInstance.transform.localPosition = Vector3.zero;
+
+                            id += facePrefab.id;
+                            var facePivot = headInstance.childLocator.FindChild("Face");
+                            var faceInstance = Instantiate(facePrefab, facePivot);
+                            faceInstance.transform.localPosition = Vector3.zero;
+
+                            yield return null;
+
+                            Debug.Log("Saving sprite with id " + id);
+                            SuccessContainer successContainer = new SuccessContainer();
+                            var subroutine = SaveSprite(successContainer);
+                            while (subroutine.MoveNext())
+                            {
+                                yield return null;
+                            }
+                            Destroy(_currentBody);
+                            _currentBody = null;
+                        }
+                    }
+                }
+            }
+
+            var randomSpritesSubroutine = GetRandomSpritesFromOutput();
+            while(randomSpritesSubroutine.MoveNext())
+            {
+                yield return null;
+            }
+
+            foreach (var path in _filePaths)
+            {
+                if (File.Exists(path))
+                {
+                    AssetDatabase.ImportAsset(path);
+                }
+            }
+        }
+
+        private IEnumerator GetRandomSpritesFromOutput()
+        {
+            List<string> pathsToSave = new List<string>();
+            for (int i = 0; i < totalSprites; i++)
+            {
+                yield return null;
+                var path = _filePaths.RetrieveAndRemoveNextElementUniform(_rng);
+                Debug.Log("Saving " + path);
+            }
+
+            for (int i = _filePaths.Count - 1; i >= 0; i--)
+            {
+                if (pathsToSave.Contains(_filePaths[i]))
+                    continue;
+
+                File.Delete(_filePaths[i]);
+            }
+            _filePaths = pathsToSave;
+        }
+
+        /*private IEnumerator Create()
         {
             int i = 0;
             while(i < totalSprites)
@@ -90,6 +176,7 @@ namespace VampireSlayer
                     continue;
                 }
 
+                Debug.Log("Saving sprite with id " + id);
                 SuccessContainer successContainer = new SuccessContainer();
                 var subroutine = SaveSprite(id, successContainer);
                 while(subroutine.MoveNext())
@@ -100,6 +187,7 @@ namespace VampireSlayer
                 if(successContainer)
                 {
                     i++;
+                    Debug.Log("Saved sprites count: " + i);
                 }
             }
 
@@ -111,16 +199,23 @@ namespace VampireSlayer
                 }
             }
             yield break;
-        }
+        }*/
 
-        private IEnumerator SaveSprite(int id, SuccessContainer container)
+        private IEnumerator SaveSprite(SuccessContainer container)
         {
             Camera main = NebulaUtil.mainCamera;
             var renderTexture = main.targetTexture;
 
             RenderTexture.active = renderTexture;
-            Texture2D tex = new Texture2D(renderTexture.width, renderTexture.height, TextureFormat.ARGB32, false);
-            tex.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
+
+            Bounds bounds = NebulaUtil.CalculateRendererBounds(_currentBody, true);
+
+            var minScreenPoint = main.WorldToScreenPoint(bounds.min, Camera.MonoOrStereoscopicEye.Mono);
+            var maxScreenPoint = main.WorldToScreenPoint(bounds.max, Camera.MonoOrStereoscopicEye.Mono);
+            var sizeScreen = main.WorldToScreenPoint(bounds.size, Camera.MonoOrStereoscopicEye.Mono);
+
+            Texture2D tex = new Texture2D(Mathf.CeilToInt(sizeScreen.x), Mathf.CeilToInt(sizeScreen.y), TextureFormat.ARGB32, false);
+            tex.ReadPixels(new Rect(0, 0, tex.width, tex.height), 0, 0);
             RenderTexture.active = null;
 
             var bytes = tex.EncodeToPNG();
@@ -128,16 +223,16 @@ namespace VampireSlayer
             var outputDirectory = $"{folderOutput}\\SpriteCreatorOutput";
             if(!Directory.Exists(outputDirectory))
             {
+                yield return null;
                 Directory.CreateDirectory(outputDirectory);
             }
 
-            var filePath = $"{outputDirectory}\\{id}.png";
+            var filePath = $"{outputDirectory}\\{Time.frameCount}.png";
             var task = File.WriteAllBytesAsync(filePath, bytes);
             while(!task.IsCompleted)
             {
                 yield return null;
             }
-            _createdSprites.Add(id);
             _filePaths.Add(filePath);
             container.success = true;
         }
@@ -163,7 +258,6 @@ namespace VampireSlayer
                 {
                     sprites[i].id = count;
                     count++;
-                    Debug.LogWarning($"{sprites[i]}'s ID: {sprites[i].id}");
                 }
             }
         }
