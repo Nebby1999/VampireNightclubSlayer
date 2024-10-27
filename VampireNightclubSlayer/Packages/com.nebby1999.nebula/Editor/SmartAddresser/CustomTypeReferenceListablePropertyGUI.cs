@@ -1,4 +1,4 @@
-﻿#if SMART_ADDRESSER && ADDRESSABLES
+﻿#if USE_ADDRESSABLES && USE_SMART_ADDRESSER
 using SmartAddresser.Editor.Core.Models.Shared.AssetGroups;
 using SmartAddresser.Editor.Core.Tools.Addresser.Shared;
 using SmartAddresser.Editor.Foundation.ListableProperty;
@@ -28,10 +28,7 @@ namespace Nebula.Editor.SmartAddresser
 
                     void OnItemSelected(InheritingTypeSelectDropdown.Item item)
                     {
-                        value.Name = item.typeName;
-                        value.FullName = item.fullName;
-                        value.AssemblyQualifiedName = item.assemblyQualifiedName;
-                        onValueChanged(value);
+                        onValueChanged(TypeReference.Create(Type.GetType(item.assemblyQualifiedName)));
                         dropdown.onItemSelected -= OnItemSelected;
                     }
 

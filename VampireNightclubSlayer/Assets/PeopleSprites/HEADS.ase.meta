@@ -290,7 +290,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: HEADS_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         width: 48
         height: 49
       spriteId: 4bceb6f0c92cd5f4d8e208a5a6782abf
-    - name: HEADS_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +308,7 @@ ScriptedImporter:
         width: 37
         height: 48
       spriteId: cc0ba09c290e4424a9d72f7e211cf756
-    - name: HEADS_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +317,7 @@ ScriptedImporter:
         width: 40
         height: 48
       spriteId: 6aede276e85df914aa23aa311fab4ca7
-    - name: HEADS_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +326,7 @@ ScriptedImporter:
         width: 38
         height: 53
       spriteId: fb72cde51994ea24a88412684b2b2b3f
-    - name: HEADS_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         width: 47
         height: 49
       spriteId: 32cad728c8067714da03b3b69a407bd2
-    - name: HEADS_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +344,7 @@ ScriptedImporter:
         width: 46
         height: 52
       spriteId: b84e51b232255d5448fa9835e59fdc90
-    - name: HEADS_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +353,7 @@ ScriptedImporter:
         width: 52
         height: 46
       spriteId: 3a48210304a967748af941175bb1d3c4
-    - name: HEADS_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:

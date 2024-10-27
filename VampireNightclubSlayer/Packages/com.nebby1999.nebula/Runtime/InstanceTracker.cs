@@ -65,7 +65,7 @@ namespace Nebula
             if (TypeData<T>.instances.Count == 0)
                 return null;
 
-            rng ??= new Xoroshiro128Plus((ulong)UnityEngine.Random.seed);
+            rng ??= new Xoroshiro128Plus((ulong)(ulong.MaxValue / UnityEngine.Random.value));
             return TypeData<T>.instances[rng.RangeInt(0, TypeData<T>.instances.Count)];
         }
     }

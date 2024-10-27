@@ -1,6 +1,7 @@
-﻿#if SMART_ADDRESSER && ADDRESSABLES
+﻿#if USE_ADDRESSABLES && USE_SMART_ADDRESSER
 using SmartAddresser.Editor.Core.Models.Shared.AssetGroups;
 using SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl;
+using SmartAddresser.Editor.Core.Models.Shared.AssetGroups.ValidationError;
 using SmartAddresser.Editor.Foundation.ListableProperty;
 using System;
 using System.Collections;
@@ -76,6 +77,12 @@ namespace Nebula.Editor.SmartAddresser.AssetFilters
             }
 
             return result.ToString();
+        }
+
+        public override bool Validate(out AssetFilterValidationError error)
+        {
+            error = null;
+            return true;
         }
     }
 }

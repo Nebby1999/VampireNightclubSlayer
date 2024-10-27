@@ -1,4 +1,4 @@
-﻿#if SMART_ADDRESSER && ADDRESSABLES
+﻿#if USE_ADDRESSABLES && USE_SMART_ADDRESSER
 using SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl;
 using SmartAddresser.Editor.Foundation.CustomDrawers;
 using SmartAddresser.Editor.Foundation.ListableProperty;

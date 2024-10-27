@@ -270,7 +270,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: FACES_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -279,7 +279,7 @@ ScriptedImporter:
         width: 38
         height: 30
       spriteId: ffab3656e7e8b464ba805c8c90ca6377
-    - name: FACES_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -288,7 +288,7 @@ ScriptedImporter:
         width: 33
         height: 26
       spriteId: 165a900baba9d4146ab1870acee02e89
-    - name: FACES_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -297,7 +297,7 @@ ScriptedImporter:
         width: 34
         height: 30
       spriteId: b6923e7c0fad3ec49851d2aa7c57c54a
-    - name: FACES_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -306,7 +306,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: 80d9e4cd129eedd4a9b83d1faa1c8cfd
-    - name: FACES_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -315,7 +315,7 @@ ScriptedImporter:
         width: 25
         height: 28
       spriteId: d52d33e9fd4f3d142b5794b000719712
-    - name: FACES_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -324,7 +324,7 @@ ScriptedImporter:
         width: 31
         height: 27
       spriteId: 81b77b200f63e8e47b2662b5dc625418
-    - name: FACES_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:

@@ -210,7 +210,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: ACCESORIES_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -219,7 +219,7 @@ ScriptedImporter:
         width: 36
         height: 29
       spriteId: 2526b1b86c043cb4293f0483a29116ed
-    - name: ACCESORIES_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -228,7 +228,7 @@ ScriptedImporter:
         width: 27
         height: 9
       spriteId: 876d1efd66cb1ce49bcfc2e86bb011d9
-    - name: ACCESORIES_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -237,7 +237,7 @@ ScriptedImporter:
         width: 8
         height: 12
       spriteId: 771b81b704a1e404f892fab43914f393
-    - name: ACCESORIES_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:

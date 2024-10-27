@@ -1,6 +1,6 @@
 {
     "name": "VampireNightclubSlayer.Runtime",
-    "rootNamespace": "",
+    "rootNamespace": "VampireSlayer",
     "references": [
         "GUID:953d3fc292bacb943aeec656c50d8fe7"
     ],

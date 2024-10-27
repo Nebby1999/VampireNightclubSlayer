@@ -1,4 +1,4 @@
-﻿#if SMART_ADDRESSER && ADDRESSABLES
+﻿#if USE_ADDRESSABLES && USE_SMART_ADDRESSER
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SmartAddresser.Editor.Core.Models.Shared.AssetGroups;
 using SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl;
+using SmartAddresser.Editor.Core.Models.Shared.AssetGroups.ValidationError;
 using SmartAddresser.Editor.Foundation.ListableProperty;
 using UnityEditor;
 using UnityEngine;
@@ -57,6 +58,11 @@ namespace Nebula.Editor.SmartAddresser.AssetFilters
         public override string GetDescription()
         {
             return "Assets in Folder: " + (FolderAsset ? FolderAsset.name : "None");
+        }
+        public override bool Validate(out AssetFilterValidationError error)
+        {
+            error = null;
+            return true;
         }
     }
 }

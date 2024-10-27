@@ -1,4 +1,4 @@
-#if SMART_ADDRESSER && ADDRESSABLES
+#if USE_ADDRESSABLES && USE_SMART_ADDRESSER
 using SmartAddresser.Editor.Core.Models.LayoutRules.AddressRules;
 using SmartAddresser.Editor.Core.Models.Shared;
 using SmartAddresser.Editor.Core.Tools.Addresser.LayoutRuleEditor.Shared;

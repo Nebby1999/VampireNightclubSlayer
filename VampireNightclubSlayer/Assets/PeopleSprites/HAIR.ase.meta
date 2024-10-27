@@ -270,7 +270,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: HAIR_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -279,7 +279,7 @@ ScriptedImporter:
         width: 62
         height: 55
       spriteId: 6035c825f0b12c348aa1d5231999ad2a
-    - name: HAIR_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -288,7 +288,7 @@ ScriptedImporter:
         width: 10
         height: 24
       spriteId: b29f67c5f2c12214d96680205d2e6171
-    - name: HAIR_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -297,7 +297,7 @@ ScriptedImporter:
         width: 52
         height: 64
       spriteId: 786cdf8a11530274ab41c53a430fd1d8
-    - name: HAIR_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -306,7 +306,7 @@ ScriptedImporter:
         width: 42
         height: 29
       spriteId: 2a0682f03f201e8458091408ce3d25be
-    - name: HAIR_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -315,7 +315,7 @@ ScriptedImporter:
         width: 30
         height: 52
       spriteId: 061b7023032248f49836070822ed8e96
-    - name: HAIR_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -324,7 +324,7 @@ ScriptedImporter:
         width: 63
         height: 38
       spriteId: 10bf923507bb03043ad05c1e4c80887d
-    - name: HAIR_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:

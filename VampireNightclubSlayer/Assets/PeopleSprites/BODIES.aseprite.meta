@@ -310,7 +310,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: BODIES_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         width: 51
         height: 106
       spriteId: 6382e823c65f7f649923ac860569a0ae
-    - name: BODIES_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -328,7 +328,7 @@ ScriptedImporter:
         width: 49
         height: 106
       spriteId: ab5f8f49cd4d01a4e83809b5555c6873
-    - name: BODIES_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -337,7 +337,7 @@ ScriptedImporter:
         width: 64
         height: 118
       spriteId: 9e83deafb5d02cb4195c403f72c2bd70
-    - name: BODIES_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -346,7 +346,7 @@ ScriptedImporter:
         width: 61
         height: 110
       spriteId: c1f52860a57aee64e94ce0feb06a180e
-    - name: BODIES_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -355,7 +355,7 @@ ScriptedImporter:
         width: 53
         height: 102
       spriteId: 20fa94a4ed9291547b3c827a4550820f
-    - name: BODIES_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -364,7 +364,7 @@ ScriptedImporter:
         width: 52
         height: 99
       spriteId: 8ab03edff360c524281e8834a1a94a05
-    - name: BODIES_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -373,7 +373,7 @@ ScriptedImporter:
         width: 64
         height: 113
       spriteId: fed565e65d2592b47a91314e383c9b8b
-    - name: BODIES_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -382,7 +382,7 @@ ScriptedImporter:
         width: 54
         height: 114
       spriteId: db95c43f879d25941aea210268a28297
-    - name: BODIES_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
