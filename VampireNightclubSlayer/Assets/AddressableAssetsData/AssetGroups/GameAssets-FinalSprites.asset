@@ -18,301 +18,307 @@ MonoBehaviour:
   m_GUID: 93c0e5b4f90fb1241a0407a9d84fa0ea
   m_SerializeEntries:
   - m_GUID: 00b9ef607c2ec4d46a875a5cc6bcd167
-    m_Address: GameAssets/PeopleSprites/6643.png
+    m_Address: GameAssets/PeopleSprites/Leo;Moss;6643.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 60ff2f4cc03c568479de2d6f201d8d9c
-    m_Address: GameAssets/PeopleSprites/5793.png
+    m_Address: GameAssets/PeopleSprites/Eli;Blue;5793.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f0f61a04851820648846078ffad1e149
-    m_Address: GameAssets/PeopleSprites/12442.png
+    m_Address: GameAssets/PeopleSprites/Roy;Bell;12442.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6150dcf8d3267f9468e6dc03f64ebdb5
-    m_Address: GameAssets/PeopleSprites/7980.png
+    m_Address: GameAssets/PeopleSprites/Dan;Lee;7980.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d1a410bf0c8b14d4aac06df257601434
-    m_Address: GameAssets/PeopleSprites/9558.png
+    m_Address: GameAssets/PeopleSprites/Ian;Ray;9558.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 72dc3b61b812b1e41a784d7afb5d2b80
-    m_Address: GameAssets/PeopleSprites/787.png
+    m_Address: GameAssets/PeopleSprites/Eve;Day;787.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f21b18f03b503dc4ca7374e19006570d
-    m_Address: GameAssets/PeopleSprites/11730.png
+    m_Address: GameAssets/PeopleSprites/Roy;Moon;11730.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a386bb4f38d161c46858d8e94fe3dd8d
-    m_Address: GameAssets/PeopleSprites/3011.png
+    m_Address: GameAssets/PeopleSprites/Tom;Ray;3011.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d3beab09e297303488d3dda4db704947
-    m_Address: GameAssets/PeopleSprites/5244.png
+    m_Address: GameAssets/PeopleSprites/Dan;Ford;5244.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f31e3b0235d6dd04087d0685ac7554bd
-    m_Address: GameAssets/PeopleSprites/12467.png
+    m_Address: GameAssets/PeopleSprites/Eli;Ray;12467.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 645f152aeccdedc4cb9379def86ecadc
-    m_Address: GameAssets/PeopleSprites/9614.png
+    m_Address: GameAssets/PeopleSprites/Zoe;Fay;9614.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 84585fc85b7b4084c87a80b5e9c3c486
-    m_Address: GameAssets/PeopleSprites/4986.png
+    m_Address: GameAssets/PeopleSprites/Lia;Snow;4986.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f446c075d1d8bfb449ee35253031e9a9
-    m_Address: GameAssets/PeopleSprites/4684.png
+    m_Address: GameAssets/PeopleSprites/Sol;Ray;4684.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1552dfa45af11bd469eec4a47fa2366d
-    m_Address: GameAssets/PeopleSprites/5737.png
+    m_Address: GameAssets/PeopleSprites/Zoe;Lane;5737.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 258c6107b3a15db42b6058a02bde9614
-    m_Address: GameAssets/PeopleSprites/3955.png
+    m_Address: GameAssets/PeopleSprites/Roy;Lane;3955.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d5c7bfc58e0148543b644ffb731d31ac
-    m_Address: GameAssets/PeopleSprites/12135.png
+    m_Address: GameAssets/PeopleSprites/Luz;Day;12135.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 47cbebe694b9a014d95c7b99b7345edd
-    m_Address: GameAssets/PeopleSprites/1534.png
+    m_Address: GameAssets/PeopleSprites/Ian;Lee;1534.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 57926ea2f87c47c478f3c4a58361ad62
-    m_Address: GameAssets/PeopleSprites/1330.png
+    m_Address: GameAssets/PeopleSprites/Mia;Hope;1330.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 774cda42de7fb6e4ca18193470942ad0
-    m_Address: GameAssets/PeopleSprites/7880.png
+    m_Address: GameAssets/PeopleSprites/Sol;Fox;7880.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d7116d31764bc4945826ac66814abc55
-    m_Address: GameAssets/PeopleSprites/8998.png
+    m_Address: GameAssets/PeopleSprites/Luz;Ray;8998.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d7af09ee6053a6542abc9dfb1e047f09
-    m_Address: GameAssets/PeopleSprites/6563.png
+    m_Address: GameAssets/PeopleSprites/Luz;Lake;6563.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a81227511c8688440abca1966566184c
-    m_Address: GameAssets/PeopleSprites/263.png
+    m_Address: GameAssets/PeopleSprites/Ana;King;263.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b84452dd240e2624bb8d83dea5a2b20d
-    m_Address: GameAssets/PeopleSprites/7587.png
+    m_Address: GameAssets/PeopleSprites/Roy;Cole;7587.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b8cff3c0aeb229e42b6e2abc6a7a32db
-    m_Address: GameAssets/PeopleSprites/7246.png
+    m_Address: GameAssets/PeopleSprites/Ana;Bell;7246.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f81615e135168654a92d12ea760b24bd
-    m_Address: GameAssets/PeopleSprites/11462.png
+    m_Address: GameAssets/PeopleSprites/Luz;Roy;11462.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 39a33d9fc4aa7ea478463d9e860a544d
-    m_Address: GameAssets/PeopleSprites/4419.png
+    m_Address: GameAssets/PeopleSprites/Gil;Wood;4419.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 797b750ca81da9e429877f0f055d44d8
-    m_Address: GameAssets/PeopleSprites/677.png
+    m_Address: GameAssets/PeopleSprites/Leo;Fox;677.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 89f7e723ae0ff514582065d346269f9c
-    m_Address: GameAssets/PeopleSprites/9951.png
+    m_Address: GameAssets/PeopleSprites/Eli;Bell;9951.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2a9127b3f4f171e4baade3c8ea95f364
-    m_Address: GameAssets/PeopleSprites/12018.png
+    m_Address: GameAssets/PeopleSprites/Mia;West;12018.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2ad98a8bc7f2d17468a598590249311d
-    m_Address: GameAssets/PeopleSprites/9039.png
+    m_Address: GameAssets/PeopleSprites/Eve;Joy;9039.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4a0570068fb6d764692be22807c8e5f2
-    m_Address: GameAssets/PeopleSprites/10140.png
+    m_Address: GameAssets/PeopleSprites/Tom;Day;10140.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5a9ba5119389b554eaaccb504c7db1ce
-    m_Address: GameAssets/PeopleSprites/10199.png
+    m_Address: GameAssets/PeopleSprites/Gil;Ray;10199.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7a6ba95239053b647b09ea0a235ea381
-    m_Address: GameAssets/PeopleSprites/2763.png
+    m_Address: GameAssets/PeopleSprites/Zoe;May;2763.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aa1e0b45845fffb4d851fb35e7283290
-    m_Address: GameAssets/PeopleSprites/11858.png
+    m_Address: GameAssets/PeopleSprites/Tom;Ray;11858.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fa44a4be7e0b10342a13929f6df209c2
-    m_Address: GameAssets/PeopleSprites/9071.png
+    m_Address: GameAssets/PeopleSprites/Leo;West;9071.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6b2173719e0453b49910939e2072fbbc
-    m_Address: GameAssets/PeopleSprites/2902.png
+    m_Address: GameAssets/PeopleSprites/Amy;Hill;2902.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7bb697646b019df488110ca7e83f384a
-    m_Address: GameAssets/PeopleSprites/3638.png
+    m_Address: GameAssets/PeopleSprites/Luz;Moon;3638.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ab905b00b6cc8104da7a2fa449bd36a9
-    m_Address: GameAssets/PeopleSprites/10316.png
+    m_Address: GameAssets/PeopleSprites/Mia;Snow;10316.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: eb3178dfc56b5b64ca4c9e1bfce061c2
-    m_Address: GameAssets/PeopleSprites/3757.png
+    m_Address: GameAssets/PeopleSprites/Lia;West;3757.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cc3334d2101c7514f99f15f6e7a43ef9
-    m_Address: GameAssets/PeopleSprites/7911.png
+    m_Address: GameAssets/PeopleSprites/Mia;Day;7911.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dc7a2c94aa5339f4ea5070fbbf69f808
-    m_Address: GameAssets/PeopleSprites/11962.png
+    m_Address: GameAssets/PeopleSprites/Eve;Lane;11962.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1db7ee70210458b4aa3af5706b0feac4
-    m_Address: GameAssets/PeopleSprites/3320.png
+    m_Address: GameAssets/PeopleSprites/Mia;Joy;3320.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2d99eaaf036d442409d1aabbf61703a7
-    m_Address: GameAssets/PeopleSprites/12339.png
+    m_Address: GameAssets/PeopleSprites/Dan;Fox;12339.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4d3ef31346bcc7d46a6a20f1de398cd1
-    m_Address: GameAssets/PeopleSprites/894.png
+    m_Address: GameAssets/PeopleSprites/Max;Ray;894.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6da494afa439c424f8bf7a25ddcad8f0
-    m_Address: GameAssets/PeopleSprites/11842.png
+    m_Address: GameAssets/PeopleSprites/Zoe;Day;11842.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7da975bce61847c42966078c4e79e501
-    m_Address: GameAssets/PeopleSprites/11315.png
+    m_Address: GameAssets/PeopleSprites/Dan;Lee;11315.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1fc8d3002648b75408fb54612b85f6cc
-    m_Address: GameAssets/PeopleSprites/2992.png
+    m_Address: GameAssets/PeopleSprites/Eli;Snow;2992.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4f443cfcee8b7974d9f6e9971f3094d5
-    m_Address: GameAssets/PeopleSprites/11997.png
+    m_Address: GameAssets/PeopleSprites/Leo;Lane;11997.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5f1510edb59304c4284a585dd4c65af9
-    m_Address: GameAssets/PeopleSprites/12405.png
+    m_Address: GameAssets/PeopleSprites/Amy;Ford;12405.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cfed22e31e906654b9d668703f733fc7
-    m_Address: GameAssets/PeopleSprites/10492.png
+    m_Address: GameAssets/PeopleSprites/Amy;Lake;10492.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PeopleSprites
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa3fc522d5ce9904282a911fdd63d4b9
+    m_Address: GameAssets/PeopleSprites/NamesGame.txt
     m_ReadOnly: 0
     m_SerializedLabels:
     - PeopleSprites
