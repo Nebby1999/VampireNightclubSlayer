@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameAssets-GameScene
+  m_EditorClassIdentifier: 
+  m_GroupName: GameAssets-GameScene
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e55a73017c5eb8b47b260ce30e54f86c
+  m_SerializeEntries:
+  - m_GUID: a7ab37f8023b769448df72c93cf6c1d2
+    m_Address: GameAssets/Scenes/GameScene/GameScene-LightSettings.lighting
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69d19aa1263e7e1438e15b165ea64fc1
+    m_Address: GameAssets/Scenes/GameScene/GameScene-ReflectionProbe-0.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a5ae1b1975e0c044abef24b1cf2752f
+    m_Address: GameAssets/Scenes/GameScene/GameScene-SkyBox.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cfbe1b3533f6b5459dc5e65dbf7fb2a
+    m_Address: GameAssets/Scenes/GameScene/GameScene-LightingData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 934a9ad0c3554594abcaf29ebf4df9e6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 80309202f8372154aa616644478c6ad3, type: 2}
+    - {fileID: 11400000, guid: 8466ede88997c4f4583d0cb32580d462, type: 2}

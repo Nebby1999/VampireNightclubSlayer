@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameAssets-CreationAssets
+  m_EditorClassIdentifier: 
+  m_GroupName: GameAssets-CreationAssets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b8c831f595401ea4aa75ed8d48f5b698
+  m_SerializeEntries:
+  - m_GUID: 00fc037c7bc7e134ca3e2c09b33e4a12
+    m_Address: GameAssets/CreationAssets/Body3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30576895c96dad54e810a4e37ffd454f
+    m_Address: GameAssets/CreationAssets/Head2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8023ff60bbb149741bb7c8b5117c233e
+    m_Address: GameAssets/CreationAssets/Accesory1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 113161c0e39f29c49abfc132e4de7441
+    m_Address: GameAssets/CreationAssets/Hair5.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21940da4ca1cd8e42867715c37a21175
+    m_Address: GameAssets/CreationAssets/Face0.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7152a6477e8eb334294963c22f3a4e8e
+    m_Address: GameAssets/CreationAssets/Body6.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 715b7223bff308546bb4b0fd07f07944
+    m_Address: GameAssets/CreationAssets/Face7.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 325100b9c3f2d404c8e180f9bbf6f327
+    m_Address: GameAssets/CreationAssets/Head4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d24761c8224653a4e9da5fe7bd6cc404
+    m_Address: GameAssets/CreationAssets/Head0.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6385dba8fb632bb4bb04941bcb7fb229
+    m_Address: GameAssets/CreationAssets/Face4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 937ec5e0eb9827b40bf601955618d921
+    m_Address: GameAssets/CreationAssets/Body0.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 444fab28b6ee29e47bdcd638856620a2
+    m_Address: GameAssets/CreationAssets/Head3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a42c3cccb3eb48b45b1b16781cbcc40e
+    m_Address: GameAssets/CreationAssets/Face1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 157bc231e18b72f4389b0d90d6618747
+    m_Address: GameAssets/CreationAssets/Head1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3574e61e3d4386143a77565ce6af8818
+    m_Address: GameAssets/CreationAssets/Accesory2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55eea3b1008f9ca4d950dc6ead652a60
+    m_Address: GameAssets/CreationAssets/Body7.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1640f70c536530c4e8b67e854857e776
+    m_Address: GameAssets/CreationAssets/Head7.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86c786de583723246a57e72651e4ca04
+    m_Address: GameAssets/CreationAssets/Body1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27257687ee8976146a41db509880503c
+    m_Address: GameAssets/CreationAssets/Head6.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 673803938d5143d41b969ecad6271fc8
+    m_Address: GameAssets/CreationAssets/Body5.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7780aadfe3f88c5499d166fd3ad678d6
+    m_Address: GameAssets/CreationAssets/Hair4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 870374b5e0baf5f4f83e8e48cdc0229e
+    m_Address: GameAssets/CreationAssets/Hair2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c75b7678f029f5c4daa225897d308d88
+    m_Address: GameAssets/CreationAssets/Face5.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ad24fbfa7bcfd140ac923edc3402439
+    m_Address: GameAssets/CreationAssets/Body4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa7cae3e94b06724aad194e0e0985e36
+    m_Address: GameAssets/CreationAssets/Hair1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa1456bcdc8f58b4b9ab427fead07f67
+    m_Address: GameAssets/CreationAssets/Accesory3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8be7129447d55cd4188b348c9332ac49
+    m_Address: GameAssets/CreationAssets/Hair0.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cb0fec5b9618574c8b9e70e41e3ad34
+    m_Address: GameAssets/CreationAssets/Head5.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c1c89e451768cc4db600eb85cf6e087
+    m_Address: GameAssets/CreationAssets/Face2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d98b8e5503550146aa8ec35e298f6c1
+    m_Address: GameAssets/CreationAssets/Accesory0.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d4a7b24cf91c5a4395f75a291971ea5
+    m_Address: GameAssets/CreationAssets/Hair7.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5de2ee85c84a2aa489dcdc8b85f9aece
+    m_Address: GameAssets/CreationAssets/Face3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e2c36afb1ed0e047a6ca6c4f46db066
+    m_Address: GameAssets/CreationAssets/Face6.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afc8c662018c3194eb9702f667e1b737
+    m_Address: GameAssets/CreationAssets/Hair3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf1b34e3d028d094da1942d849aed4ae
+    m_Address: GameAssets/CreationAssets/Body2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfd57b7bb7d1ca746b246460daafe56e
+    m_Address: GameAssets/CreationAssets/Hair6.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 934a9ad0c3554594abcaf29ebf4df9e6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a300aead22ff2eb4f890ef7154162b44, type: 2}
+    - {fileID: 11400000, guid: e416a655d7320c14882c7e1d558878e3, type: 2}

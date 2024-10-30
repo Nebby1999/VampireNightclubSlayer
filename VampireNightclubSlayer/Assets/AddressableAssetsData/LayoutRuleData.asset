@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c113ff064b10c427fb3a071e46ace37d, type: 3}
+  m_Name: LayoutRuleData
+  m_EditorClassIdentifier: 
+  _layoutRule:
+    _settings:
+      _excludeUnversioned:
+        _value: 0
+      _versionExpression:
+        _value: 
+    _addressRules:
+      _internalList:
+      - _id: 665aacf6-120c-4e47-b502-0bd0483e8126
+        _addressableGroup: {fileID: 11400000, guid: e6c7ca41e4f0f7a43a11488f9cc0628c,
+          type: 2}
+        _control:
+          _value: 0
+        _assetGroups:
+          _internalList:
+          - _id: f71e195f-22ed-4c05-b717-757562a2a4b8
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList: []
+        _addressProviderInternal:
+          rid: 2459415751827914752
+      - _id: cbb4e005-de8b-4fe2-a962-dabd794a3a29
+        _addressableGroup: {fileID: 11400000, guid: 8fc887a7d19c8a142aec1a7121397450,
+          type: 2}
+        _control:
+          _value: 1
+        _assetGroups:
+          _internalList:
+          - _id: 4652f03d-a000-488b-a87f-7fcb4245cdcd
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList:
+              - rid: 2459415751827914758
+        _addressProviderInternal:
+          rid: 2459415751827914759
+      - _id: 833e54a4-2120-442b-8fb9-aa4705b77cc5
+        _addressableGroup: {fileID: 11400000, guid: e99660ad277472c47a74a89b7d921a0c,
+          type: 2}
+        _control:
+          _value: 1
+        _assetGroups:
+          _internalList:
+          - _id: da31006c-b92f-4abb-aab2-0b372c475d8f
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList:
+              - rid: 2459415751827914760
+        _addressProviderInternal:
+          rid: 2459415751827914761
+      - _id: b3a3b8ee-fcac-464c-9812-58fb2b1f1e94
+        _addressableGroup: {fileID: 11400000, guid: b1d6fc91798a0ff4aad7b557623b627a,
+          type: 2}
+        _control:
+          _value: 1
+        _assetGroups:
+          _internalList:
+          - _id: e2425e11-dff5-44ce-8d2f-1c7602b250b8
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList:
+              - rid: 2459415751827914762
+        _addressProviderInternal:
+          rid: 2459415751827914763
+      - _id: feb1fe61-6b50-4215-8910-5191d0c323e7
+        _addressableGroup: {fileID: 11400000, guid: 3a7caa8ce72a0b94e8e1dc9245157f7f,
+          type: 2}
+        _control:
+          _value: 1
+        _assetGroups:
+          _internalList:
+          - _id: bab9cf5e-303b-448d-9ef3-44ea816de77f
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList:
+              - rid: 2459415751827914770
+              - rid: 2459415751827914769
+              - rid: 2459415751827914781
+        _addressProviderInternal:
+          rid: 2459415751827914771
+      - _id: 417209ea-ca19-4a7f-a669-0ed56f385814
+        _addressableGroup: {fileID: 11400000, guid: 32cce9985939a844e969e2d8e143c828,
+          type: 2}
+        _control:
+          _value: 1
+        _assetGroups:
+          _internalList:
+          - _id: e9bf4714-b07a-4c67-b979-5c7f81b09452
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList:
+              - rid: 2459415751827914772
+        _addressProviderInternal:
+          rid: 2459415751827914773
+      - _id: c08dcc0f-91ea-4ab0-8127-2b6841a74247
+        _addressableGroup: {fileID: 11400000, guid: 58ba2c05f91ca5c43834f40fbbc1390b,
+          type: 2}
+        _control:
+          _value: 1
+        _assetGroups:
+          _internalList:
+          - _id: cc06950e-ae5d-4a8f-b28f-9aeeb7b067b8
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList:
+              - rid: 2459415751827914776
+        _addressProviderInternal:
+          rid: 2459415751827914777
+      - _id: 59053651-49e8-4495-9888-f66975e758a2
+        _addressableGroup: {fileID: 11400000, guid: 188a9047df90ac94b834a407298e3aed,
+          type: 2}
+        _control:
+          _value: 0
+        _assetGroups:
+          _internalList:
+          - _id: 92d3df33-a51d-4c90-96e4-68028396539a
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList: []
+        _addressProviderInternal:
+          rid: 2459415751827914757
+    _labelRules:
+      _internalList:
+      - _id: 2832c7de-d26f-4342-8252-b730de47369c
+        _name:
+          _value: PersonSprite
+        _assetGroups:
+          _internalList:
+          - _id: 998c6757-7620-49fb-9af2-20b4a2194847
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList:
+              - rid: 2459415751827914784
+        _labelProviderInternal:
+          rid: 2459415751827914782
+    _versionRules:
+      _internalList: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 2459415751827914752
+      type: {class: AssetPathBasedAddressProvider, ns: SmartAddresser.Editor.Core.Models.LayoutRules.AddressRules,
+        asm: SmartAddresser.Editor}
+      data:
+        _source: 2
+        _replaceWithRegex: 0
+        _pattern: 
+        _replacement: 
+    - rid: 2459415751827914757
+      type: {class: AssetPathBasedAddressProvider, ns: SmartAddresser.Editor.Core.Models.LayoutRules.AddressRules,
+        asm: SmartAddresser.Editor}
+      data:
+        _source: 2
+        _replaceWithRegex: 0
+        _pattern: 
+        _replacement: 
+    - rid: 2459415751827914758
+      type: {class: NonFolderAssetsInFolder, ns: Nebula.Editor.SmartAddresser.AssetFilters,
+        asm: Nebula.Editor}
+      data:
+        _id: 9e0faadb-71d7-45f3-939f-afd047d708d2
+        _folderAsset: {fileID: 102900000, guid: b6259f42b98ef0347a527d55b4db4b6c,
+          type: 3}
+    - rid: 2459415751827914759
+      type: {class: SimplifiedAssetPath, ns: Nebula.Editor.SmartAddresser.AddressProviders,
+        asm: Nebula.Editor}
+      data: 
+    - rid: 2459415751827914760
+      type: {class: ObjectBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl,
+        asm: SmartAddresser.Editor}
+      data:
+        _id: 0972ee66-5510-4a08-81cc-76c420a7138e
+        _folderTargetingMode: 0
+        _object:
+          _isListMode: 0
+          _values:
+          - {fileID: 102900000, guid: d671454b5a764cf4c8d2c34f1ca3770e, type: 3}
+    - rid: 2459415751827914761
+      type: {class: SimplifiedAssetPath, ns: Nebula.Editor.SmartAddresser.AddressProviders,
+        asm: Nebula.Editor}
+      data: 
+    - rid: 2459415751827914762
+      type: {class: ObjectBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl,
+        asm: SmartAddresser.Editor}
+      data:
+        _id: 62719d7d-3981-4ab3-8a34-a44cf5d2a855
+        _folderTargetingMode: 0
+        _object:
+          _isListMode: 0
+          _values:
+          - {fileID: 102900000, guid: 3ee5c596afd1b8e42b9f8e03d520f04a, type: 3}
+    - rid: 2459415751827914763
+      type: {class: SimplifiedAssetPath, ns: Nebula.Editor.SmartAddresser.AddressProviders,
+        asm: Nebula.Editor}
+      data: 
+    - rid: 2459415751827914769
+      type: {class: TypeBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl,
+        asm: SmartAddresser.Editor}
+      data:
+        _id: df709da1-a695-4016-ae18-a10ee322a900
+        _type:
+          _isListMode: 0
+          _values:
+          - _name: SceneAsset
+            _fullName: UnityEditor.SceneAsset
+            _assemblyQualifiedName: UnityEditor.SceneAsset, UnityEditor.CoreModule,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        _matchWithDerivedTypes: 1
+    - rid: 2459415751827914770
+      type: {class: NonFolderAssetsInFolder, ns: Nebula.Editor.SmartAddresser.AssetFilters,
+        asm: Nebula.Editor}
+      data:
+        _id: 9fb96643-72df-4863-834c-704bd71fae0a
+        _folderAsset: {fileID: 102900000, guid: 99f626d795b87bc42bbca04826e9f8fc,
+          type: 3}
+    - rid: 2459415751827914771
+      type: {class: AssetPathBasedAddressProvider, ns: SmartAddresser.Editor.Core.Models.LayoutRules.AddressRules,
+        asm: SmartAddresser.Editor}
+      data:
+        _source: 0
+        _replaceWithRegex: 0
+        _pattern: 
+        _replacement: 
+    - rid: 2459415751827914772
+      type: {class: ObjectBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl,
+        asm: SmartAddresser.Editor}
+      data:
+        _id: 61ed877e-715d-4bdd-bece-e7292f20894b
+        _folderTargetingMode: 0
+        _object:
+          _isListMode: 0
+          _values:
+          - {fileID: 102900000, guid: fb2678fc7a13cd841a114cf6c410223d, type: 3}
+    - rid: 2459415751827914773
+      type: {class: SimplifiedAssetPath, ns: Nebula.Editor.SmartAddresser.AddressProviders,
+        asm: Nebula.Editor}
+      data: 
+    - rid: 2459415751827914776
+      type: {class: RegexBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl,
+        asm: SmartAddresser.Editor}
+      data:
+        _id: 93a2a098-0cbb-4d78-9302-1b6676eee086
+        _matchWithFolders: 0
+        _condition: 0
+        _assetPathRegex:
+          _isListMode: 0
+          _values:
+          - Assets/TextMesh Pro
+    - rid: 2459415751827914777
+      type: {class: SimplifiedAssetPath, ns: Nebula.Editor.SmartAddresser.AddressProviders,
+        asm: Nebula.Editor}
+      data: 
+    - rid: 2459415751827914781
+      type: {class: ExcludeAssets, ns: Nebula.Editor.SmartAddresser.AssetFilters,
+        asm: Nebula.Editor}
+      data:
+        _id: b52b2041-5d21-40b9-8cb8-f7906ff589c7
+        excludedAssets:
+          _isListMode: 0
+          _values:
+          - {fileID: 102900000, guid: cdc37a663cb53ce4986a2e8c5c5018e9, type: 3}
+    - rid: 2459415751827914782
+      type: {class: ConstantLabelProvider, ns: SmartAddresser.Editor.Core.Models.LayoutRules.LabelRules,
+        asm: SmartAddresser.Editor}
+      data:
+        _label: PeopleSprites
+    - rid: 2459415751827914784
+      type: {class: RegexBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl,
+        asm: SmartAddresser.Editor}
+      data:
+        _id: b142396f-2e59-48bd-84a2-118c7ac43372
+        _matchWithFolders: 0
+        _condition: 0
+        _assetPathRegex:
+          _isListMode: 0
+          _values:
+          - PeopleSprites

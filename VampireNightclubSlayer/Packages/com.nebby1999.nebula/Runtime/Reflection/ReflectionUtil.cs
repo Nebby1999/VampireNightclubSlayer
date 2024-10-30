@@ -21,5 +21,15 @@ namespace Nebula
             }
             return types;
         }
+
+       public static bool IsSameOrSubclassOf(this Type type, Type otherType)
+        {
+            if (!(type == otherType))
+            {
+                return type.IsSubclassOf(otherType);
+            }
+
+            return true;
+        }
     }
 }

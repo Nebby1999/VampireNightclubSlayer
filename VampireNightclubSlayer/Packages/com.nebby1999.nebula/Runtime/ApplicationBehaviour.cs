@@ -23,10 +23,8 @@ namespace Nebula
         [SerializeField] private string _loadingSceneName;
 #if USE_ADDRESSABLES
         [SerializeField] private AssetReferenceScene _loadingFinishedScene;
-        [SerializeField] private AssetReferenceScene _inbetweenScenesLoadingScene;
 #else
         [SerializeField] private SceneReference _loadingFinishedScene;
-        [SerializeField] private SceneReference _inbetweenScenesLoadingScene;
 #endif
 
         protected virtual void Awake()

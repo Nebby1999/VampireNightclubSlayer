@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameAssets
+  m_EditorClassIdentifier: 
+  m_GroupName: GameAssets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 55f05941f8cdbf1489e8943b5d637e90
+  m_SerializeEntries:
+  - m_GUID: 13e06aaf983ed31499af21282cbd20bb
+    m_Address: GameAssets/Night.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 411cdf7e39e606147a118ef794ae8b62
+    m_Address: GameAssets/VampireNightclubSlayerApplication.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d71a62e57821ea146b3c3c7cb1d0e094
+    m_Address: GameAssets/Person.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 934a9ad0c3554594abcaf29ebf4df9e6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7cfb918052baab7419535f1c6a8c5b06, type: 2}
+    - {fileID: 11400000, guid: 279f26ff8485dcb4283f1b7d8987ff9b, type: 2}

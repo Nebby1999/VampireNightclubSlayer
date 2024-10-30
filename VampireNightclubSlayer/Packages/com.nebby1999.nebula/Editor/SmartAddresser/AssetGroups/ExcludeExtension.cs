@@ -46,7 +46,7 @@ namespace Nebula.Editor.SmartAddresser.AssetFilters
                     return false;
                 }
             }
-            return true; ;
+            return true;
         }
 
         public override string GetDescription()
